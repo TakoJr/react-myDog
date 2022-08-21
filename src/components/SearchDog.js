@@ -4,11 +4,7 @@ import GetBreed from './GetBreed';
 const SearchDog = () => {
   return (
     <div>
-        
-        <br></br>
-        <br></br>
-        <br></br>
-
+        <h2 className='searchDog-title'>Choose your favorite Dog Breed!</h2>
         <GetBreed />
     </div>
   )

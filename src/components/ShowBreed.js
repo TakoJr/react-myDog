@@ -11,7 +11,6 @@ const ShowBreed = ({breedURL}) => {
         if ( data.loading === true ) return <p>loading ...</p>
         
         console.log('Got the data', data );
-        var test = 2
 
     return (data.imgurl.message.map(( dog, index) => (
             
@@ -26,8 +25,7 @@ const ShowBreed = ({breedURL}) => {
     }
 
     return (
-        <div>
-
+        <div className='dog-gallery-padding'>
             <Resource path={breedURL} render={render} />
 
         </div>

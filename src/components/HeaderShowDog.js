@@ -12,7 +12,7 @@ const customStyles = {
       bottom                : 'auto',
       marginRight           : '-50%',
       transform             : 'translate(-50%, -50%)',
-      backgroundColor: '#264653'
+      backgroundColor: '#ffffff'
     }
   };
 
@@ -48,17 +48,16 @@ const Header = () => {
             isOpen={modalIsOpen}
             onRequestClose={() => setModalIsOpen(false)}
             style={customStyles} >
-            <h1>Welcome to Cat Fun <BsHouse /></h1>
-            <h2>hi, wrote this simple Web App for cat lovers. hope you like it.</h2>
+            <h1>Dog Lovers Unite! <BsHouse /></h1>
+            <h2>This is a place for dog lovers to gather and share their love for dogs.</h2>
             <hr></hr>
-            <h2>Author:  Abel Choy</h2>
-            <h2>Contact: abelchoy@gmail.com</h2>
+            <h2>Author:  Teo Yu Chang</h2>
+            <h2>Contact: maildropyc@gmail.com</h2>
             <p>Software: ReactJS REST-API</p>
-            <p>Version: 1.0 Aug 2020</p>
-            <p>Credit Images: api.thecatapi.com</p>
+            <p>Version: 1.0 Aug 2022</p>
+            <p>Credit Images: https://dog.ceo/dog-api/</p>
             <p>p/s:</p>
             <p>please contact me if you have any suggestions for this App.</p>
-            <p>Do you like to learn Reactjs Programming? please contact me.</p>
             <div>
             <button className='btn' onClick={() => setModalIsOpen(false)}>Close</button>
             </div>

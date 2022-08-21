@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import ShowBreed from './ShowBreed'
 import DropResource from './DropResource'; 
+
 const GetBreed = () => {
 
     const [dogData, setDogData] = useState("appenzeller");
@@ -19,9 +20,8 @@ const GetBreed = () => {
 
     
     return (
-        <div>
-
-            <select id = "dogSelect" onChange={(e) => setDogData(e.target.value)}>  
+        <div className='dropList-container'>
+            <select className='dropList' id = "dogSelect" onChange={(e) => setDogData(e.target.value)}>  
                 {arrayBreedList.map( dogOption => (              
                     <option value ={dogOption}>{dogOption}</option>
                     ))}

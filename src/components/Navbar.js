@@ -12,7 +12,6 @@ const NavBar = () => {
                 <Link to='/'>Home</Link>
                 <Link to='/Dogs'>Dogs</Link>    
                 <Link to='/SearchDog'>SearchDog</Link>    
-                <Link to='/About'>About</Link>
             
         </div>
         </nav>
